@@ -1,14 +1,13 @@
-// components/Header.tsx
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react'; // Hamburger and close icons
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white backdrop-blur-md supports-[backdrop-filter]:bg-white/50">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white shadow-xl backdrop-blur-md supports-[backdrop-filter]:bg-white/50">
       <div className="container flex h-14 items-center justify-between mx-auto px-6">
         {/* Logo */}
         <div className="flex items-center">
