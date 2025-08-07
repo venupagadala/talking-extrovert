@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "TutorAI - The Future of Learning Math",
   description: "Empowering students with personalized AI-driven math concepts and interactive quizzes.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/images/favicon.png",
   },
 };
 
